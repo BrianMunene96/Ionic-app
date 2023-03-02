@@ -1,0 +1,40 @@
+ion-card {
+  --background: #3c1a5b;
+  --color: #fff748;
+}
+
+ion-card-title {
+  --color: #fff748;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ion-card-subtitle {
+  --color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ion-card-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ion-button {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+  /* styles for browsers larger than 960px; */
+  ion-card {
+    width: 800px;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  ion-button {
+    margin-left: 330px;
+    margin-bottom: 20px;
+  }
+}

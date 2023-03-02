@@ -1,0 +1,8 @@
+@media only screen and (min-width: 400px) {
+  /* styles for browsers larger than 960px; */
+  ion-card {
+    width: 800px;
+    margin: 20px auto;
+    height: auto;
+  }
+}
