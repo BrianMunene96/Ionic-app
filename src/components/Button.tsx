@@ -1,9 +1,12 @@
 import { IonButton } from "@ionic/react";
+import { Link } from "react-router-dom";
 import './Button.css'
 
 const Button: React.FC = () => {
     return (
-        <IonButton>Start Quiz</IonButton>
+        <Link to="/dashboard">
+        <IonButton >Start Quiz</IonButton>
+        </Link>
     );
   };
   
