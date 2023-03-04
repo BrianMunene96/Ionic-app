@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+ion-card {
+  margin: 0 auto;
+  background-color: #3c1a5b;
+  padding: 16px;
+  border-radius: 16px;
+  color: #fff748;
+  height: auto;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.question-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-number,
+.current-score {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.question-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  background-color: #fff748;
+  padding: 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #3c1a5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 400px) {
+  /* styles for browsers larger than 960px; */
+  ion-card {
+    width: 800px;
+    margin: 20px auto;
+    height: auto;
+  }
+}
